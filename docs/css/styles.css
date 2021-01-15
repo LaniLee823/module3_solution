@@ -1,0 +1,90 @@
+body {
+	font-size: 16px
+	color: #fff;
+	background-color: white;
+	font-family: cursive;	
+}
+
+/* Header*/
+#header-nav {
+  background-color: pink;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.navbar-brand h1 { 
+  font-family: cursive;
+  color: black;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1em;
+  background: #F9E8E8;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: gray;
+  color: white;
+}
+#collapsable-nav a{
+	font-size: 1.2em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -20px;
+}
+#chicken-tile, #beef-tile, #sushi-tile {
+	background-color: pink;
+	border: 1px solid black;
+	margin-bottom: 30px;
+}
+#home-tiles p {
+	padding: 15px;
+}
+#home-tiles a {
+	text-align: center;
+}
+/* END HEADER */
+
+/***** Large Devices Only *****/
+@media (min-width: 1200px){
+
+}
+
+/***** Medium Devices Only *****/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/***** Small Devices Only *****/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/***** Extra Small Devices only *****/
+@media (max-width: 767px) {
+	/* header */
+
+
+}
